@@ -45,7 +45,6 @@ The default values for various paramters parsed to the experiment are given in `
 #### Federated Parameters
 * ```--iid:```      Distribution of data amongst users. Default set to IID. Set to 0 for non-IID.
 * ```--num_users:```Number of users. Default is 50.
-* ```--frac:```     Fraction of users to be used for federated updates. Default is 1.0.
 * ```--local_ep:``` Number of local training epochs in each user. Default is 1.
 * ```--local_bs:``` Batch size of local updates in each user. Default is 50.
 
